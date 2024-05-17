@@ -1,0 +1,189 @@
+[1715837741.477][INFO]: Starting ChromeDriver 124.0.6367.207 (a9001a6e39fbaa559510ca866052950457dd4e6b-refs/branch-heads/6367_201@{#3}) on port 3487
+[1715837741.477][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1715837741.638][INFO]: [30d70f0158492d24da1683c8a8b2169f] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "goog:loggingPrefs": {
+            "browser": "ALL",
+            "driver": "ALL"
+         }
+      } ]
+   }
+}
+[1715837741.639][INFO]: Browser search. Trying... C:\Users\GOWRI\.cache\selenium\chromedriver\win64\124.0.6367.207\chrome.exe
+[1715837741.639][INFO]: Browser search. Trying... C:\Users\GOWRI\.cache\selenium\chromedriver\win64\124.0.6367.207\chrome.exe
+[1715837741.639][INFO]: Browser search. Trying... C:\Users\GOWRI\.cache\selenium\chromedriver\win64\124.0.6367.207\chromium.exe
+[1715837741.641][INFO]: Browser search. Trying... C:\Users\GOWRI\AppData\Local\Google\Chrome\Application\chrome.exe
+[1715837741.641][INFO]: Browser search. Trying... C:\Program Files\Google\Chrome\Application\chrome.exe
+[1715837741.641][INFO]: Browser search. Found at  C:\Program Files\Google\Chrome\Application\chrome.exe
+[1715837741.642][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1715837741.643][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1715837741.644][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1715837741.644][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1715837741.645][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\GOWRI\AppData\Local\Temp\scoped_dir18012_203630052" data:,
+[1715837742.246][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1715837742.504][INFO]: [30d70f0158492d24da1683c8a8b2169f] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "124.0.6367.208",
+      "chrome": {
+         "chromedriverVersion": "124.0.6367.207 (a9001a6e39fbaa559510ca866052950457dd4e6b-refs/branch-heads/6367_201@{#3})",
+         "userDataDir": "C:\\Users\\GOWRI\\AppData\\Local\\Temp\\scoped_dir18012_203630052"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:63863"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "30d70f0158492d24da1683c8a8b2169f"
+}
+[1715837742.760][INFO]: [30d70f0158492d24da1683c8a8b2169f] COMMAND MaximizeWindow {
+}
+[1715837742.760][INFO]: Waiting for pending navigations...
+[1715837742.761][INFO]: Done waiting for pending navigations. Status: ok
+[1715837742.779][INFO]: Waiting for pending navigations...
+[1715837742.779][INFO]: Done waiting for pending navigations. Status: ok
+[1715837742.779][INFO]: [30d70f0158492d24da1683c8a8b2169f] RESPONSE MaximizeWindow {
+   "height": 886,
+   "width": 1616,
+   "x": -8,
+   "y": -8
+}
+[1715837742.789][INFO]: [30d70f0158492d24da1683c8a8b2169f] COMMAND SetTimeouts {
+   "implicit": 30000
+}
+[1715837742.789][INFO]: [30d70f0158492d24da1683c8a8b2169f] RESPONSE SetTimeouts
+[1715837742.793][INFO]: [30d70f0158492d24da1683c8a8b2169f] COMMAND Navigate {
+   "url": "https://forms.gle/wjPkzeSEk1CM7KgGA"
+}
+[1715837742.793][INFO]: Waiting for pending navigations...
+[1715837742.795][INFO]: Done waiting for pending navigations. Status: ok
+[1715837743.898][INFO]: Waiting for pending navigations...
+[1715837747.220][INFO]: Done waiting for pending navigations. Status: ok
+[1715837747.220][INFO]: [30d70f0158492d24da1683c8a8b2169f] RESPONSE Navigate
+[1715837752.226][INFO]: [30d70f0158492d24da1683c8a8b2169f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div['Xb9hP']/input[@type='text']"
+}
+[1715837752.226][INFO]: Waiting for pending navigations...
+[1715837752.227][INFO]: Done waiting for pending navigations. Status: ok
+[1715837752.236][INFO]: Waiting for pending navigations...
+[1715837752.237][INFO]: Done waiting for pending navigations. Status: ok
+[1715837752.237][INFO]: [30d70f0158492d24da1683c8a8b2169f] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.45C0FFB7068BEF157DB67C9F3C70AD42.d.AF6AD0B1704AA8C155BDAF494F6D1036.e.4"
+}
+[1715837752.241][INFO]: [30d70f0158492d24da1683c8a8b2169f] COMMAND ClearElement {
+   "id": "f.45C0FFB7068BEF157DB67C9F3C70AD42.d.AF6AD0B1704AA8C155BDAF494F6D1036.e.4"
+}
+[1715837752.241][INFO]: Waiting for pending navigations...
+[1715837752.242][INFO]: Done waiting for pending navigations. Status: ok
+[1715837752.264][INFO]: 
+	=== NOTE: ===
+	The Clear command in ChromeDriver 2.43 and above
+	has been updated to conform to the current standard,
+	including raising blur event after clearing.
+
+[1715837752.274][INFO]: Waiting for pending navigations...
+[1715837752.275][INFO]: Done waiting for pending navigations. Status: ok
+[1715837752.275][INFO]: [30d70f0158492d24da1683c8a8b2169f] RESPONSE ClearElement
+[1715837752.279][INFO]: [30d70f0158492d24da1683c8a8b2169f] COMMAND TypeElement {
+   "id": "f.45C0FFB7068BEF157DB67C9F3C70AD42.d.AF6AD0B1704AA8C155BDAF494F6D1036.e.4",
+   "text": "Balaji",
+   "value": [ "B", "a", "l", "a", "j", "i" ]
+}
+[1715837752.279][INFO]: Waiting for pending navigations...
+[1715837752.280][INFO]: Done waiting for pending navigations. Status: ok
+[1715837752.343][INFO]: Waiting for pending navigations...
+[1715837752.345][INFO]: Done waiting for pending navigations. Status: ok
+[1715837752.345][INFO]: [30d70f0158492d24da1683c8a8b2169f] RESPONSE TypeElement
+[1715837752.349][INFO]: [30d70f0158492d24da1683c8a8b2169f] COMMAND CloseWindow {
+}
+[1715837752.401][INFO]: [30d70f0158492d24da1683c8a8b2169f] RESPONSE CloseWindow [ "A453812BD540DF0371B2E02706FF3143" ]
+[1715837752.415][INFO]: [30d70f0158492d24da1683c8a8b2169f] COMMAND Quit {
+}
+[1715837752.477][INFO]: [30d70f0158492d24da1683c8a8b2169f] RESPONSE Quit
